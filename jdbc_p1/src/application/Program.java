@@ -27,9 +27,6 @@ public class Program {
                 case 2:
                     adicionarPedido();
                     break;
-                case 3:
-                    // Adicione outras opções de menu e seus respectivos métodos aqui
-                    break;
                 case 0:
                     executando = false;
                     break;
@@ -46,7 +43,6 @@ public class Program {
         System.out.println("===== MENU =====");
         System.out.println("1. Adicionar Cliente");
         System.out.println("2. Adicionar Pedido");
-        // Adicione outras opções de menu aqui
         System.out.println("0. Sair do programa");
     }
 
